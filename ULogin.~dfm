@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 517
+  Top = 194
+  Width = 309
+  Height = 249
+  Caption = 'Data Pemohon'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Username: TLabel
+    Left = 40
+    Top = 65
+    Width = 74
+    Height = 21
+    Caption = 'Username'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 40
+    Top = 106
+    Width = 74
+    Height = 21
+    Caption = 'Password'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 42
+    Top = 162
+    Width = 74
+    Height = 29
+    Caption = 'Login'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
+  object BitBtn2: TBitBtn
+    Left = 174
+    Top = 162
+    Width = 74
+    Height = 29
+    Caption = 'Close'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = BitBtn2Click
+  end
+  object password: TEdit
+    Left = 128
+    Top = 104
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object user: TEdit
+    Left = 128
+    Top = 64
+    Width = 121
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object CheckBox1: TCheckBox
+    Left = 128
+    Top = 136
+    Width = 137
+    Height = 17
+    Caption = 'Tampilkan password'
+    TabOrder = 4
+    OnClick = CheckBox1Click
+  end
+end
